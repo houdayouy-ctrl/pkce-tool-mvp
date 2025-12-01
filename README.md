@@ -4,7 +4,7 @@ Ce dépôt contient le code pour le projet "pkce-tool-mvp" avec un accent partic
 
 L'objectif de cette version (MVP) est de valider la logique essentielle d'authentification et de sécurité avant d'intégrer dans un audit  complet.
 
-## 🔑 Composant Principal : PKCE Tool
+##  Composant Principal : PKCE Tool
 
 Le script clé est `src/src/scr/pkce_tool.py` (ou le `pkce_tool_mvp.py` si vous l'avez renommé).
 
@@ -17,7 +17,7 @@ Le script `pkce_tool.py` implémente les deux fonctions principales du protocole
 1.  **Génération du Code Verifier** : Une chaîne aléatoire et secrète (le secret temporaire du client).
 2.  **Dérivation du Code Challenge** : La version hachée (SHA256) et encodée en Base64 URL du Verifier. Ce challenge est envoyé au serveur d'autorisation.
 
-## 🛠️ Démarrage et Utilisation
+##  Démarrage et Utilisation
 
 ### 1. Pré-requis
 
